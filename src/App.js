@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import SearchBar from './components/SearchBar';
-import WeatherDisplay from './components/WeatherDisplay';
-import WeatherDetails from './components/WeatherDetails';
 import ForecastDisplay from './components/ForecastDisplay';
 import { fetchForecast } from './services/apiService';
 import './App.css';
@@ -27,7 +25,6 @@ const App = () => {
             {error && <p style={styles.error}>{error}</p>}
             {forecastData && (
               <>
-                {/* <WeatherDisplay weather={forecastData} /> */}
                 <ForecastDisplay forecast={forecastData.list} />
               </>
             )}
@@ -39,7 +36,6 @@ const styles = {
   container: {
       fontFamily: '"Roboto", sans-serif',
       textAlign: 'center',
-      // background: 'linear-gradient(to bottom, #e0f7fa, #ffffff)',
       minHeight: '100vh',
       padding: '20px',
   },
@@ -55,7 +51,6 @@ const styles = {
       margin: '10px 0',
   },
   details: {
-      // backgroundColor: '#ffffff',
       borderRadius: '15px',
       padding: '20px',
       textAlign: 'center',

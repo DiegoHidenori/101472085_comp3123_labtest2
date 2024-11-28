@@ -11,7 +11,6 @@ const ForecastDisplay = ({ forecast }) => {
     }, {});
 
     const dailyForecasts = Object.entries(groupedByDay).map(([date, entries]) => {
-        const temps = entries.map((entry) => entry.main.temp);
         const tempMins = entries.map((entry) => entry.main.temp_min);
         const tempMaxs = entries.map((entry) => entry.main.temp_max);
 
