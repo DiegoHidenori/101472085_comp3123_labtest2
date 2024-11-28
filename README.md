@@ -12,3 +12,7 @@
 - ForecastDisplay.js
   - This is the component that has all the weather information displayed in the application. It has functionality that goes through all the data and shows a card for each of the days in the forecast.
   - Made custom design so that the data is easier to view and understand.
+
+## Screenshots
+
+![Alt text](public/ApplicationScreenshot.png)
