@@ -15,4 +15,10 @@
 
 ## Screenshots
 
+### Application Screenshot
+
 ![Alt text](public/ApplicationScreenshot.png)
+
+### Postman Screenshot
+
+![alt text](public/PostmanScreenshot.png)
